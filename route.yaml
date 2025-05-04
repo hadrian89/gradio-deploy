@@ -1,0 +1,10 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: gradio-app-route
+spec:
+  to:
+    kind: Service
+    name: gradio-app-service
+  port:
+    targetPort: 80

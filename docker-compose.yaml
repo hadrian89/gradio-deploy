@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  gradio-app:
+    build: .
+    ports:
+      - "7861:7861"
