@@ -7,4 +7,7 @@ spec:
     kind: Service
     name: gradio-app-service
   port:
-    targetPort: 80
+    targetPort: 3000
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect

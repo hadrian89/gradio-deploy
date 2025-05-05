@@ -4,4 +4,4 @@ services:
   gradio-app:
     build: .
     ports:
-      - "7861:7861"
+      - "3000:3000"

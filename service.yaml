@@ -8,6 +8,7 @@ spec:
   selector:
     app: gradio-app
   ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 7861
+    - name: 3000-tcp 
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

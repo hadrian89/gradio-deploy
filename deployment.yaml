@@ -18,4 +18,4 @@ spec:
         - name: gradio-app
           image: docker.io/abhiabhi/gradio-app:latest
           ports:
-            - containerPort: 7861
+            - containerPort: 3000

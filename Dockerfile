@@ -6,6 +6,6 @@ COPY app.py .
 
 RUN pip install --no-cache-dir gradio
 
-EXPOSE 7861
+EXPOSE 3000
 
 CMD ["python", "app.py"]
